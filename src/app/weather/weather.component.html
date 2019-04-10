@@ -1,0 +1,29 @@
+
+   <div *ngIf = "loading == false; then thenBlock else elseBlock"></div>
+    <ng-template #thenBlock>
+      <div class="weatherBox weatherComp">
+
+          <div class="row">
+
+              <div class="col-sm-6">
+                <div class= "weatherUI">
+                    <div class="weatherName">{{weatherInfo.name}}
+                        <div class="weatherIcon">
+                            <i class ="{{weatherIcon}}"></i>
+                            <i>{{weatherInfo.main.icon}}</i>
+                            {{weatherInfo.main.temp | number: '1.0-0'  }}
+                          </div>
+                      </div>
+                    <div class="weatherTemp">
+
+                    </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+    </ng-template>
+    <ng-template #elseBlock>
+      <div class="spinner-grow text-info"></div>
+    </ng-template>
+

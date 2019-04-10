@@ -1,0 +1,68 @@
+.container-fluid{
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+}
+.icon-bar{
+  background-color: rgb(169, 107, 182);
+}
+.navbar-default{
+  color: white;
+}
+
+.navbar-default {
+  background-color: rgb(169, 107, 182);
+  border-color: #2d4459;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #714b79;
+}
+.navbar-default .navbar-text {
+  color: #bd79ca;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #794686;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #814892;
+  background-color: #2d4459;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #714b79;
+  background-color: #2d4459;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2d4459;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2d4459;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #35404f;
+}
+
+.signika{
+  font-family: 'Signika Negative', sans-serif;
+  }
