@@ -8,5 +8,6 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class AppComponent {
 
-  title = 'my-app';
+
+
 }
